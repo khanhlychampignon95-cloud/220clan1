@@ -1,0 +1,19 @@
+body{font-family:-apple-system,Arial;margin:0;padding:10px}
+.title{text-align:center;margin-bottom:10px}
+.index{display:flex;flex-wrap:wrap;justify-content:center;margin-bottom:15px}
+.index button{
+  margin:6px;
+  padding:10px 16px;
+  border-radius:22px;
+  border:1px solid #ccc;
+  background:#f2f2f2;
+  font-size:15px;
+}
+.index button.active{background:#007aff;color:#fff}
+#timer{position:fixed;top:10px;right:10px;font-weight:bold;color:red;font-size:18px}
+#score{text-align:center;margin:10px 0;font-weight:bold}
+.question{margin:15px 0;padding:10px;border-bottom:1px solid #eee}
+.option{display:block;margin:6px 0;padding:6px;border-radius:5px}
+.correct{color:#0a8a0a;font-weight:bold}
+.wrong{color:#c40000;font-weight:bold}
+.explain{font-size:0.9em;color:#555;margin-top:5px}
